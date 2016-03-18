@@ -29,13 +29,13 @@ public class Main {
         System.out.println("Max = " + Tools.findMax(numbers));
 
         //sort
-        Tools.sortAsc(numbers, Tools.Order.ASC);
+        Tools.sort(numbers, Tools.Order.ASC);
 
         //show res
         Tools.show(numbers);
 
         //sort
-        Tools.sortAsc(numbers, Tools.Order.DESC);
+        Tools.sort(numbers, Tools.Order.DESC);
 
         //show res
         Tools.show(numbers);

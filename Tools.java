@@ -30,7 +30,7 @@ abstract public class Tools {
         return max;
     }
     //sort array
-    static void sortAsc(int[] paramArray, Order sortOrder ) {
+    static void sort(int[] paramArray, Order sortOrder ) {
 
         boolean needSort;
         int temp;
